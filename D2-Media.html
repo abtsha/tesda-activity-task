@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href=" "style.css">
+        <title>Media</title>
+</head>
+<body>
+    <h1 class="center white-text text-lighten-1 purple">Media</h1>
+    <div class="divider"></div>
+
+    <div class="container">
+        <h3 class="purple-text text-lighten-2"> Images</h3>
+        <p>Images can be styled in different ways using Materialize.</p>
+        <p class="flow-text">Responsive Images</p>
+        <p>To make images resize responsively to page width, you can add 
+            the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.
+        </p>
+        <p class="flow-text">Circular Images</p>
+
+        <div class="row">
+            <div class="col s12 m8 16">
+                <div class="card-panel grey lighten-5 z-depth-1">
+                    <div class="row valign-wrapper">
+                        <div class="col s3">
+                            <img src="images/PhotoKo.jpg" alt=""
+                            class="responsive-img circle">
+                        </div>
+                        <div class="col s10">
+                            <span class="black-text">
+                                This is a square image. 
+                                Add the "circle" class to it to 
+                                make it appear circular.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <p>To make images appear circular, simply add class="circle" to them</p>
+        
+        <br><br>
+
+        <!--FOR VIDEOS-->
+        <h3 class="purple-text text-lighten-2"> Videos</h3>
+        <p>We provide a container for Embedded Videos that resizes them responsively.
+        </p>
+        <p class="flow-text"> Responsive Videos</p>
+        <p>To make your embeds responsive, merely wrap them with a containing div which has the class
+        </p>
+        
+        <div class="container">
+        <div class="video-container responsive-video center">
+        <iframe width="490" height="188" 
+        src="https://www.youtube.com/embed/hxOApe1P9dM" 
+        title="Humpty Dumpty Grocery Store | CoComelon @NinasFamilia  Nursery Rhymes &amp; Kids Songs" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+        </div>
+        </div>
+
+        <br><br>
+        <h3 class="purple-text text-lighten-2"> Spotify</h3>
+        <p>We provide a container for Embedded Spotify that resizes them responsively.
+        </p>
+        
+        <p class="flow-text"> Responsive Spotify</p>
+        <p>To make your embeds responsive, merely wrap them with a containing div which has the class
+        </p>
+
+        <br>
+        <div class="container">
+        <div class="video-container responsive-video center">
+            <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/track/6uDYCYObYXJXoMnCzz8083?utm_source=generator" 
+            width="100%" 
+            height="352" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy"></iframe>
+        </div>
+        </div>
+
+        <div style="height: 1000px;"></div>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="D3-Style.css">
+        <title>Media</title>
+</head>
+<body>
+    <h1 class="center white-text text-lighten-1 green">Hi, I'm Sha!</h1>
+    <div class="divider"></div>
+
+    <div class="container">
+        <h3 class="green-text text-lighten-2"> Bio</h3>
+
+        <!-- Material Box-->
+        <div class="container">
+        <p>I'm a social media influencer with a passion for promoting makeup, skincare, and fashion products. 
+        Through captivating content and authentic product reviews, I've become a trusted source for my engaged online community.
+        I believe in the power of self-expression and self-confidence, encouraging individuals to embrace their unique style.
+        Join me on my journey of empowerment through beauty and style.</p>
+
+        <a href="https://www.canva.com/design/DAFoC2OE23Y/Poa8RaXJABD5HhdnpL-Hmg/edit?utm_content=DAFoC2OE23Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+        target="_blank"
+        title="Goes to Shannyn's Portforlio"> <!-- eto yung pag nitapat mo yung cursoir mo mag lalabas na maliit na word-->
+        <h6>Shannyn's portfolio (click here)</h6> <!-- eto yung text na itataopat mo cursur mo para luabas yung nasa taas-->
+        </a>
+
+        <br>
+
+        <img src="images/A5.jpg" alt=""
+        class="materialboxed responsive-img"
+        data-caption="Hi! thank you for checking my photo ;> ">
+        </div>
+
+        <br>
+
+
+        <!-- SLIDER-->
+            <h3 class="green-text text-lighten-2"> My Works</h3>
+            <p>I'm a passionate creator, and I invite you to explore my portfolio to see the fruits of my artistic journey.
+                From vibrant visual art to captivating photography, my work is a reflection of my dedication and evolving style. 
+                Each piece tells a unique story and evokes emotions. Welcome to my world of creativity and self-expression.</p>
+
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/A1.jpg" alt="">
+                        <div class="caption center-align">
+                        <h3>Hi, I'm Shannyn!></h3>
+                        <h6 class="light-grey-text text-lighten-3">and here are some of my works. </h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A8.jpg" alt="">
+                        <div class="caption left-align">
+                        <h4 class="yellow-text accent-2-text">Boss G perfume</h4>
+                        <h6 class="light-grey-text text-lighten-3">this is a sample shot of this perfume.</h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A9.png" alt="">
+                        <div class="caption left-align">
+                        <h4 class= "yellow-text accent-2-text>Catt & Co Serum">Catt & Co Serum</h4>
+                        <h6 class="light-grey-text text-lighten-3">Op shot with products.</h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A10.png" alt="">
+                        <div class="caption left-align">
+                        <h4>Queen K Body Scrum</h4>
+                        <h6 class="light-grey-text text-lighten-3">Organic Photo</h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A11.png" alt="">
+                        <div class="caption left-align">
+                        <h4>Boss G Perfume</h4>
+                        <h6 class="light-grey-text text-lighten-3">Another OP shot with product. </h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A12.png" alt="">
+                        <div class="caption left-align">
+                        <h4>Moree.ph</h4>
+                        <h6 class="light-grey-text text-lighten-3">Some outfit check photo.</h6>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/A13.png" alt="">
+                        <div class="caption left-align">
+                        <h4>Denim.Co</h4>
+                        <h6 class="light-grey-text text-lighten-3">Im promoting the jeans here.</h6>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div style="height: 75px;"></div>
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+        crossorigin="anonymous"></script>
+        <!-- Compiled and minified JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                //materialbox initialized
+                $('.materialboxed').materialbox({
+                    inDuration: 1000,
+                    outDuration: 1000
+                });
+                //slider init
+                $('.slider').slider({
+                    indicators: true,
+                    duration: 1000,
+                    interval: 3000
+                });
+            });      
+        </script>
+
+    <div class="container">
+    <footer>
+        <p>&copy; 2023 Made by Shannyn</p>
+    </footer>
+    </div>
+</body>
+
+</html>

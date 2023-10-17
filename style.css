@@ -1,0 +1,29 @@
+/* D1-Colors-Typography*/
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: 200;
+}
+
+footer{
+    text-align: center;
+}
+
+.stock-link {
+    font-weight: 120;
+    font-size: 15px;
+}
+
+.adobe-stock {
+    position: sticky;
+    top: 0;
+}
+
+.stock-link-small{
+    font-weight: 120;
+    font-size: 10px;
+    margin-left: 15px;
+}
+
+.stock-img {
+    margin: 18px 0px 20px;
+}
+
